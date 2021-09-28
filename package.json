@@ -1,12 +1,14 @@
 {
-  "name": "pdf-table-extractor",
-  "version": "1.0.0",
+  "name": "@amithkk/pdf-table-extractor",
+  "version": "2.0-fork",
   "description": "Extract tables from PDF file",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ronny Wang",
-  "license": "BSD License",
+  "author": "Amith K K",
+  "license": "BSD",
+  "main": "./pdf-table-extractor.js",
   "dependencies": {
+    "pdfjs-dist": "^1.5.446"
   }
 }
